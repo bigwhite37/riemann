@@ -7,6 +7,7 @@
   :jvm-opts ["-server" "-Xms1024m" "-Xmx1024m" "-XX:+UseParNewGC" "-XX:+UseConcMarkSweepGC" "-XX:+CMSParallelRemarkEnabled" "-XX:+AggressiveOpts" "-XX:+UseFastAccessorMethods" "-XX:+CMSClassUnloadingEnabled"]
   :maintainer {:email "aphyr@aphyr.com"}
   :dependencies [
+    [pandect "0.6.0"]
     [org.clojure/algo.generic "0.1.2"]
     [org.clojure/clojure "1.8.0"]
     [org.clojure/math.numeric-tower "0.0.4"]
